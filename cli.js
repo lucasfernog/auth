@@ -32,7 +32,7 @@ request.post(url, postData, (error, response, body) => {
     if (typeof data === 'string') {
         token = data
     } else {
-        token = data.CampoToken
+        token = data[api[env].token_field || 'token']
         if (token == null) {
             console.error('Unable to parse token from response. Data:', data)
             process.exit(1)

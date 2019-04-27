@@ -1,6 +1,6 @@
 {
-  "name": "auth",
-  "version": "1.0.0",
+  "name": "auth-token-utils",
+  "version": "1.0.1",
   "description": "Auth utils",
   "main": "cli.js",
   "repository": {

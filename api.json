@@ -4,13 +4,15 @@
         "post": {
             "user": "string",
             "password": "string"
-        }
+        },
+        "token_field": "string"
     },
     "prod": {
         "url": "http://qa.env",
         "post": {
             "user": "string",
             "password": "string"
-        }
+        },
+        "token_field": "string"
     }
 }
