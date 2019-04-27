@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "url": "http://dev.env",
+        "post": {
+            "user": "string",
+            "password": "string"
+        }
+    },
+    "prod": {
+        "url": "http://qa.env",
+        "post": {
+            "user": "string",
+            "password": "string"
+        }
+    }
+}
